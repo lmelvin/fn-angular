@@ -1,0 +1,21 @@
+{
+  "name": "fn.angular",
+  "version": "1.0.0",
+  "description": "AngularJS directives for Foundation for Sites",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lmelvin/fn.angular.git"
+  },
+  "author": "Lucas Melvin",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "1.6.5",
+    "foundation-sites": "6.4.1",
+    "jquery": "2.2.4"
+  },
+  "devDependencies": {}
+}
