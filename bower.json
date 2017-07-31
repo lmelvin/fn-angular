@@ -1,0 +1,26 @@
+{
+  "name": "fn-angular",
+  "description": "AngularJS directives for Foundation for Sites",
+  "main": "index.js",
+  "authors": [
+    "Lucas Melvin"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/lmelvin/fn.angular",
+  "private": true,
+  "ignore": [
+    ".gitignore",
+    ".vs",
+    "bower_components",
+    "docs",
+    "karma.conf.js",
+    "node_modules",
+    "README.md",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.6.5",
+    "foundation-sites": "^6.4.1"
+  }
+}

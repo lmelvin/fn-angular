@@ -11,13 +11,7 @@ lib-cov
 .DS_Store
 .idea
 
-pids
-logs
-results
-dist
-# test coverage files
-.coverage/
-
 node_modules
 npm-debug.logS
+bower_components
 .vs

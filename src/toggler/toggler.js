@@ -5,7 +5,7 @@
 
     function fnToggler() {
         var directiveDefinition = {
-            restrict: "AE",
+            restrict: "A",
             link: link
         };
 

@@ -14,8 +14,18 @@
   "license": "ISC",
   "dependencies": {
     "angular": "1.6.5",
-    "foundation-sites": "6.4.1",
-    "jquery": "2.2.4"
+    "foundation-sites": "6.4.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "angular-mocks": "^1.6.5",
+    "angular-sanitize": "^1.6.5",
+    "gulp": "2.6.0",
+    "jasmine": "^2.6.0",
+    "jasmine-core": "^2.7.0",
+    "karma": "^1.7.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "phantomjs": "^2.1.7"
+  }
 }
