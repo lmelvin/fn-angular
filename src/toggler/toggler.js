@@ -1,6 +1,6 @@
 (function () {
 
-    angular.module("fn.angular.toggler", [])
+    angular.module("fn-angular-toggler", [])
         .directive("fnToggler", fnToggler);
 
     function fnToggler() {

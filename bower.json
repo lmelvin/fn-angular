@@ -1,13 +1,13 @@
 {
   "name": "fn-angular",
   "description": "AngularJS directives for Foundation for Sites",
-  "main": "index.js",
+  "main": "src/toggler/toggler.js",
   "authors": [
     "Lucas Melvin"
   ],
   "license": "ISC",
-  "homepage": "https://github.com/lmelvin/fn.angular",
-  "private": true,
+  "homepage": "https://github.com/lmelvin/fn-angular",
+  "private": false,
   "ignore": [
     ".gitignore",
     ".vs",
