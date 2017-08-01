@@ -4,7 +4,7 @@ describe("toggler directive",
             scope,
             hiddenClassName = "hidden";
 
-        beforeEach(module("fn.angular.toggler"));
+        beforeEach(module("fn-angular-toggler"));
 
         beforeEach(inject(function (_$compile_, _$rootScope_) {
             $compile = _$compile_;

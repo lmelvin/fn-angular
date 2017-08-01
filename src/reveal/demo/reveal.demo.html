@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html>
 <head>
@@ -7,24 +7,24 @@
 
     <link href="../../../bower_components/foundation-sites/dist/css/foundation.css" rel="stylesheet" />
 
-    <style>
-        .hidden {
-            display: none;
-        }
-    </style>
-
     <script src="../../../bower_components/jquery/dist/jquery.js"></script>
     <script src="../../../bower_components/foundation-sites/dist/js/foundation.js"></script>
     <script src="../../../bower_components/angular/angular.js"></script>
-    <script src="../toggler.js"></script>
-    <script src="../demo/toggler.demo.js"></script>
+    <script src="../reveal.js"></script>
+    <script src="../demo/reveal.demo.js"></script>
 
 </head>
 <body ng-app="app" ng-controller="ctrl as vm">
-    <a href="" ng-click="vm.toggle()" class="button">Toggle</a>
-    <div class="callout" fn-toggler="vm.toggled" data-toggler=".hidden">
-        <h4>Transcluded content</h4>
+    <a href="" class="button" ng-click="vm.toggleModal()">Toggle Reveal</a>
+    <div>
+        <code>showModal: {{ vm.showModal }}</code>
+    </div>
+    <div class="reveal" fn-reveal="vm.showModal" fn-reveal-options="vm.revealOptions">
+        <h4>Transcluded Content</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta quas optio alias voluptas nobis iusto mollitia asperiores incidunt reprehenderit doloribus voluptatibus officiis minus, inventore, quasi nisi. Consequuntur, quidem. Sint, dicta?</p>
+        <button class="close-button" aria-label="Close reveal" type="button" ng-click="vm.toggleModal()">
+            <span aria-hidden="true">&times;</span>
+        </button>
     </div>
 </body>
 </html>
