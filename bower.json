@@ -13,6 +13,7 @@
     ".vs",
     "bower_components",
     "docs",
+    "demo",
     "karma.conf.js",
     "node_modules",
     "README.md",
