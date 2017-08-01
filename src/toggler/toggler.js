@@ -4,12 +4,10 @@
         .directive("fnToggler", fnToggler);
 
     function fnToggler() {
-        var directiveDefinition = {
+        return {
             restrict: "A",
             link: link
         };
-
-        return directiveDefinition;
 
         function link(scope, element, attrs) {
 

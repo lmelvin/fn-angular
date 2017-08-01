@@ -1,5 +1,5 @@
 (function () {
-    var app = angular.module('app', ['fn.angular.toggler']);
+    var app = angular.module('app', ['fn-angular-toggler']);
 
     app.controller('ctrl', ctrl);
 
