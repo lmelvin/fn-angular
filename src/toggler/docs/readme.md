@@ -14,7 +14,7 @@ The `fnToggler` directive can only be used as an attribute
 ```
 
 #### Arguments
-| Param        | Type          | Details  |
-| -------------|------------| -----|
-| fnToggler    | expression | If the expression is truthy/falsy then the element is hidden/shown respectively. |
-| dataToggler  | string     | The class you wish to apply when the element is in a hidden state. See foundation documentation [here](http://foundation.zurb.com/sites/docs/toggler.html)|
+| Param        | Type       | Details  |
+| -------------|------------| -----    |
+| fnToggler    | expression | If the expression is truthy/falsy then the `dataToggler` class is added/removed from the element respectively. |
+| dataToggler  | string     | The class you wish to toggle. See foundation documentation [here](http://foundation.zurb.com/sites/docs/toggler.html)|

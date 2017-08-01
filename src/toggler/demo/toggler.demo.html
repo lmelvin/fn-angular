@@ -22,7 +22,10 @@
 </head>
 <body ng-app="app" ng-controller="ctrl as vm">
     <a href="" ng-click="vm.toggle()" class="button">Toggle</a>
-    <div class="callout" fn-toggler="vm.toggled" data-toggler=".hidden">
+    <div>
+        <code>toggleOn: {{ vm.toggleOn }}</code>
+    </div>
+    <div class="callout" fn-toggler="vm.toggleOn" data-toggler=".hidden">
         <h4>Transcluded content</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta quas optio alias voluptas nobis iusto mollitia asperiores incidunt reprehenderit doloribus voluptatibus officiis minus, inventore, quasi nisi. Consequuntur, quidem. Sint, dicta?</p>
     </div>

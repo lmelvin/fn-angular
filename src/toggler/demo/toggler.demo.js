@@ -5,10 +5,10 @@
 
     function ctrl() {
         var vm = this;
-        vm.toggled = true;
+        vm.toggleOn = true;
         vm.toggle = function () {
-            vm.toggled = !vm.toggled;
-            return vm.toggled;
+            vm.toggleOn = !vm.toggleOn;
+            return vm.toggleOn;
         }
     }
 })()
