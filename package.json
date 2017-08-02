@@ -19,7 +19,9 @@
   "devDependencies": {
     "angular-mocks": "^1.6.5",
     "angular-sanitize": "^1.6.5",
-    "gulp": "2.6.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^3.0.0",
     "jasmine": "^2.6.0",
     "jasmine-core": "^2.7.0",
     "karma": "^1.7.0",
