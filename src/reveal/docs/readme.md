@@ -2,6 +2,12 @@
 ------
 `fnReveal` directive
 
+#### Module
+Load the module in your application by adding it as a dependent module
+```javascript
+angular.module('app', ['fn-angular-reveal']);
+```
+
 #### Usage
 The `fnReveal` directive can only be used as an attribute
 
@@ -26,3 +32,4 @@ The `fnReveal` directive will emit these events up the scope chain
 | -------          | ------------- |
 | open.fn.reveal   | Fires when the modal has successfully opened. |
 | closed.fn.reveal | Fires when the modal is done closing. |
+

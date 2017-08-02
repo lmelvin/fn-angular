@@ -1,4 +1,4 @@
-(function () {
+(function() {
 
     angular.module("fn-angular-toggler", [])
         .directive("fnToggler", fnToggler);
@@ -25,11 +25,11 @@
             }
 
             scope.$watch(attrs.fnToggler,
-                function (shouldCollapse) {
+                function(shouldCollapse) {
                     if (angular.isDefined(shouldCollapse)) {
                         toggler.toggle();
                     }
                 });
         }
     }
-})()
+})();

@@ -1,6 +1,6 @@
 var gulp = require("gulp");
 var concat = require("gulp-concat");
-var uglify = require('gulp-uglify');
+var uglify = require("gulp-uglify");
 
 gulp.task("scripts",
     function () {
@@ -12,4 +12,16 @@ gulp.task("scripts",
             .pipe(gulp.dest("./dist/"));
     });
 
-gulp.task("default", ["scripts"]);
+gulp.task("docs",
+    function () {
+        var fileGlob = [
+            "./src/module/docs/*.md",
+            "./src/!(module)/docs/*.md"
+        ];
+
+        return gulp.src(fileGlob)
+            .pipe(concat("README.md"))
+            .pipe(gulp.dest("./"));
+    });
+
+gulp.task("default", ["scripts", "docs"]);
