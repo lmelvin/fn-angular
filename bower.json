@@ -5,7 +5,7 @@
   "authors": [
     "Lucas Melvin"
   ],
-  "license": "ISC",
+  "license": "MIT",
   "homepage": "https://github.com/lmelvin/fn-angular",
   "private": false,
   "ignore": [

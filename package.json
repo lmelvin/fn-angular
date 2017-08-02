@@ -11,7 +11,7 @@
     "url": "https://github.com/lmelvin/fn-angular.git"
   },
   "author": "Lucas Melvin",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "angular": "1.6.5",
     "foundation-sites": "6.4.1"
