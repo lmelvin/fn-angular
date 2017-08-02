@@ -1,12 +1,36 @@
 ## fn-angular - [AngularJS](http://angularjs.org/) directives for [Foundation for Sites](http://foundation.zurb.com/sites.html)
 
-### Dependencies
+#### Dependencies
 * AngularJS: 1.6.x
 * Foundation-Sites: 6.4.1
+
+#### Installation
+
+```
+$ bower install fn-angular --save
+```
+
+#### Module
+To load all `fn-angular` modules in your application
+```javascript
+angular.module('app', ['fn-angular']);
+```
+Otherwise you can load individual component modules
+
+#### Components
+* [Reveal](#Reveal)
+* [Toggler](#Toggler)
+
 
 [Reveal](http://foundation.zurb.com/sites/docs/reveal.html)
 ------
 `fnReveal` directive
+
+#### Module
+Load the module in your application by adding it as a dependent module
+```javascript
+angular.module('app', ['fn-angular-reveal']);
+```
 
 #### Usage
 The `fnReveal` directive can only be used as an attribute
@@ -37,6 +61,11 @@ The `fnReveal` directive will emit these events up the scope chain
 [Toggler](http://foundation.zurb.com/sites/docs/toggler.html)
 ------
 `fnToggler` directive
+#### Module
+load the module in your application by adding it as a dependent module
+```javascript
+angular.module('app', ['fn-angular-toggler']);
+```
 
 #### Usage
 The `fnToggler` directive can only be used as an attribute
@@ -54,3 +83,4 @@ The `fnToggler` directive can only be used as an attribute
 | -------------|------------| -----    |
 | fnToggler    | expression | If the expression is truthy/falsy then the `dataToggler` class is added/removed from the element respectively. |
 | dataToggler  | string     | The class you wish to toggle. See foundation documentation [here](http://foundation.zurb.com/sites/docs/toggler.html)|
+

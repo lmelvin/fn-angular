@@ -18,13 +18,15 @@
 
             var reveal = new Foundation.Reveal($element, revealOptions);
 
-            $element.on('open.zf.reveal', function () {
-                scope.$emit('open.fn.reveal');
-            });
+            $element.on("open.zf.reveal",
+                function () {
+                    scope.$emit("open.fn.reveal");
+                });
 
-            $element.on('closed.zf.reveal', function () {
-                scope.$emit('closed.fn.reveal');
-            });
+            $element.on("closed.zf.reveal",
+                function () {
+                    scope.$emit("closed.fn.reveal");
+                });
 
             scope.$watch(attrs.fnReveal,
                 function (showReveal) {
@@ -39,8 +41,8 @@
                 });
         }
     }
-})()
-(function () {
+})();
+(function() {
 
     angular.module("fn-angular-toggler", [])
         .directive("fnToggler", fnToggler);
@@ -67,11 +69,14 @@
             }
 
             scope.$watch(attrs.fnToggler,
-                function (shouldCollapse) {
+                function(shouldCollapse) {
                     if (angular.isDefined(shouldCollapse)) {
                         toggler.toggle();
                     }
                 });
         }
     }
-})()
+})();
+(function() {
+    angular.module("fn-angular", ["fn-angular-reveal", "fn-angular-toggler"]);
+})();
