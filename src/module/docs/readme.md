@@ -18,6 +18,6 @@ angular.module('app', ['fn-angular']);
 Otherwise you can load individual component modules
 
 #### Components
-* [Reveal](#Reveal)
-* [Toggler](#Toggler)
+* [Reveal](#reveal)
+* [Toggler](#toggler)
 

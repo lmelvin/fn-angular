@@ -18,8 +18,8 @@ angular.module('app', ['fn-angular']);
 Otherwise you can load individual component modules
 
 #### Components
-* [Reveal](#Reveal)
-* [Toggler](#Toggler)
+* [Reveal](#reveal)
+* [Toggler](#toggler)
 
 
 [Reveal](http://foundation.zurb.com/sites/docs/reveal.html)
