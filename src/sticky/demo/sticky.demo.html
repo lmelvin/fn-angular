@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <link href="../../../bower_components/foundation-sites/dist/css/foundation.css" rel="stylesheet" />
+
+    <style>
+        .stickied {
+            border: 1px solid black;
+        }
+    </style>
+
+</head>
+<body ng-app="app" ng-controller="ctrl as vm">
+    <h1 class="sticky">Sticky Demo</h1>
+    <div class="grid-x">
+        <div class="small-6 cell">
+            <div class="sticky" fn-sticky fn-sticky-options="vm.stickyOptions">
+                <div class="stickied">
+                    I'm a sticky!
+                </div>
+            </div>
+        </div>
+        <div class="small-6 cell" id="bigcol">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non sollicitudin leo. Donec sagittis orci vel tincidunt placerat. Nunc et malesuada urna. Fusce non pellentesque diam, sit amet ornare orci. Phasellus aliquet enim at fringilla mollis. Nam
+                eget malesuada ligula, non fringilla quam. Etiam tincidunt bibendum tincidunt. Sed nisi lacus, molestie id aliquet eu, ultrices congue ligula. Mauris in pellentesque ligula. Mauris est nisi, semper in volutpat eu, venenatis eu felis. Pellentesque
+                mattis aliquam scelerisque. Mauris vehicula cursus purus eu tempus. Praesent aliquet non massa dictum mattis. Donec malesuada nisl in sem aliquet, at consequat nulla eleifend. Nunc eu hendrerit tellus. Fusce eu dignissim felis. Aenean porttitor
+                turpis sit amet urna commodo posuere. Vivamus gravida efficitur pellentesque. Donec urna lacus, pellentesque nec molestie ut, rutrum id orci.
+            </p>
+            <p>
+                Nunc augue nulla, mollis et egestas ac, convallis in augue. Aenean mattis sapien magna, vitae pretium nibh tempor vitae. Cras tristique eros at sapien facilisis, maximus lacinia dui tristique. Donec sit amet congue quam. Proin placerat finibus massa,
+                vitae venenatis turpis blandit quis. Fusce sed faucibus elit. Curabitur hendrerit sapien a quam maximus, eget tempor elit feugiat. Vivamus varius purus sed odio rutrum, vitae varius metus viverra. Sed in leo erat. Phasellus gravida leo nibh, at
+                hendrerit nulla aliquam sed. Sed laoreet sodales felis, quis volutpat augue posuere eu. Nunc sodales mollis nisl, a laoreet augue malesuada eu.
+            </p>
+            <p>
+                Maecenas posuere maximus est ac iaculis. Nam sit amet egestas enim. Fusce a est non quam molestie tincidunt. Donec vel venenatis purus. Praesent nec eros hendrerit, facilisis velit mollis, sollicitudin metus. Cras et diam arcu. Praesent accumsan viverra
+                metus ac euismod. Maecenas hendrerit accumsan risus. Phasellus ornare condimentum diam, eget viverra diam dapibus sed.
+            </p>
+            <p>
+                Proin at dui vel augue consequat semper. Pellentesque cursus, dui volutpat imperdiet laoreet, lectus dolor facilisis nunc, id ultrices ante felis nec risus. Nullam feugiat, sem sed mattis venenatis, lorem nibh rutrum erat, eu consequat ex turpis ac nisi.
+                Mauris at ante est. Maecenas feugiat orci ac nulla molestie dapibus. Nunc eu nisl eu tortor venenatis tristique sit amet gravida eros. Proin tristique augue ut malesuada porta. Quisque magna mi, pulvinar tincidunt arcu a, dictum pellentesque ante.
+                Nulla sagittis metus sed justo auctor interdum. Maecenas velit elit, ultrices a lorem nec, viverra sodales neque. Morbi id volutpat orci. Integer interdum erat ac vulputate laoreet.
+            </p>
+            <p>
+                Maecenas posuere maximus est ac iaculis. Nam sit amet egestas enim. Fusce a est non quam molestie tincidunt. Donec vel venenatis purus. Praesent nec eros hendrerit, facilisis velit mollis, sollicitudin metus. Cras et diam arcu. Praesent accumsan viverra
+                metus ac euismod. Maecenas hendrerit accumsan risus. Phasellus ornare condimentum diam, eget viverra diam dapibus sed.
+            </p>
+            <p>
+                Proin at dui vel augue consequat semper. Pellentesque cursus, dui volutpat imperdiet laoreet, lectus dolor facilisis nunc, id ultrices ante felis nec risus. Nullam feugiat, sem sed mattis venenatis, lorem nibh rutrum erat, eu consequat ex turpis ac nisi.
+                Mauris at ante est. Maecenas feugiat orci ac nulla molestie dapibus. Nunc eu nisl eu tortor venenatis tristique sit amet gravida eros. Proin tristique augue ut malesuada porta. Quisque magna mi, pulvinar tincidunt arcu a, dictum pellentesque ante.
+                Nulla sagittis metus sed justo auctor interdum. Maecenas velit elit, ultrices a lorem nec, viverra sodales neque. Morbi id volutpat orci. Integer interdum erat ac vulputate laoreet.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non sollicitudin leo. Donec sagittis orci vel tincidunt placerat. Nunc et malesuada urna. Fusce non pellentesque diam, sit amet ornare orci. Phasellus aliquet enim at fringilla mollis. Nam
+                eget malesuada ligula, non fringilla quam. Etiam tincidunt bibendum tincidunt. Sed nisi lacus, molestie id aliquet eu, ultrices congue ligula. Mauris in pellentesque ligula. Mauris est nisi, semper in volutpat eu, venenatis eu felis. Pellentesque
+                mattis aliquam scelerisque. Mauris vehicula cursus purus eu tempus. Praesent aliquet non massa dictum mattis. Donec malesuada nisl in sem aliquet, at consequat nulla eleifend. Nunc eu hendrerit tellus. Fusce eu dignissim felis. Aenean porttitor
+                turpis sit amet urna commodo posuere. Vivamus gravida efficitur pellentesque. Donec urna lacus, pellentesque nec molestie ut, rutrum id orci.
+            </p>
+            <p>
+                Nunc augue nulla, mollis et egestas ac, convallis in augue. Aenean mattis sapien magna, vitae pretium nibh tempor vitae. Cras tristique eros at sapien facilisis, maximus lacinia dui tristique. Donec sit amet congue quam. Proin placerat finibus massa,
+                vitae venenatis turpis blandit quis. Fusce sed faucibus elit. Curabitur hendrerit sapien a quam maximus, eget tempor elit feugiat. Vivamus varius purus sed odio rutrum, vitae varius metus viverra. Sed in leo erat. Phasellus gravida leo nibh, at
+                hendrerit nulla aliquam sed. Sed laoreet sodales felis, quis volutpat augue posuere eu. Nunc sodales mollis nisl, a laoreet augue malesuada eu.
+            </p>
+            <p>
+                Maecenas posuere maximus est ac iaculis. Nam sit amet egestas enim. Fusce a est non quam molestie tincidunt. Donec vel venenatis purus. Praesent nec eros hendrerit, facilisis velit mollis, sollicitudin metus. Cras et diam arcu. Praesent accumsan viverra
+                metus ac euismod. Maecenas hendrerit accumsan risus. Phasellus ornare condimentum diam, eget viverra diam dapibus sed.
+            </p>
+        </div>
+    </div>
+
+    <script src="../../../bower_components/jquery/dist/jquery.js"></script>
+<script src="../../../bower_components/foundation-sites/dist/js/foundation.js"></script>
+
+    <script src="../../../bower_components/angular/angular.js"></script>
+    <script src="../sticky.js"></script>
+    <script src="../demo/sticky.demo.js"></script>
+</body>
+</html>
