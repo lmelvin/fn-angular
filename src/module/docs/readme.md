@@ -3,6 +3,7 @@
 #### Dependencies
 * AngularJS: 1.6.x
 * Foundation-Sites: 6.4.1
+* jQuery 2.4.2
 
 #### Installation
 
@@ -19,5 +20,6 @@ Otherwise you can load individual component modules
 
 #### Components
 * [Reveal](#reveal)
+* [Sticky](#sticky)
 * [Toggler](#toggler)
 

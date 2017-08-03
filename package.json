@@ -14,7 +14,8 @@
   "license": "MIT",
   "dependencies": {
     "angular": "1.6.5",
-    "foundation-sites": "6.4.1"
+    "foundation-sites": "6.4.1",
+    "jquery": "2.2.4"
   },
   "devDependencies": {
     "angular-mocks": "^1.6.5",
