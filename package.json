@@ -1,8 +1,8 @@
 {
   "name": "fn-angular",
-  "version": "1.0.0",
+  "version": "1.2.3",
   "description": "AngularJS directives for Foundation for Sites",
-  "main": "index.js",
+  "main": "src/toggler/toggler.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
